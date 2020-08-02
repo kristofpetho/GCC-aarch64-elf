@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf32-bigaarch64", "elf32-bigaarch64",
 	      "elf32-littleaarch64")
 OUTPUT_ARCH(aarch64:ilp32)
 ENTRY(_start)
-SEARCH_DIR("/home/kristof/android/bldgcc/gcc/aarch64-elf-10.1.0/aarch64-elf/lib");
+SEARCH_DIR("/home/kristof/android/bldgcc/gcc/aarch64-elf-10.2.0/aarch64-elf/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */
